@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+nav{
+    background: #239FE9;
+    background: radial-gradient(circle, #239FE9 0%, #011622 100%);
+    display: flex;
+    justify-content: space-around;    
+    align-items: center;
+    height: 4rem;
+}
+
+.nav__container--left h1{
+    font-size: var(--fontTitulo);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: lightgray;
+}
+
+.nav__container--right{
+    font-weight: bold;
+    display: flex;
+    gap: 1rem;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.dark__togle{
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: lightgrey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: relative;
+    height: 20px;
+    width: 50px;
+    transform: scale(1);
+}
+
+.fa-moon{
+    color:#37268C;
+}
+
+.fa-sun{
+    color: #f39c12;
+}
+
+.ball{
+    background-color: lightgray;
+    border-radius: 50%;
+    position:absolute;
+    top: 1px;
+    left: 1px;
+    height: 19px;
+    width: 19px;
+    transform: var(--ballTransition);
+    transition: transform 0.1s linear;
+}
+
+.nav__container--right a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.nav__container--right a:hover{
+    color: var(--bcgLista)
+}
+
+.main__container--login{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    width: 95%;
+    max-width: 705px;
+    background: var(--bcglinear1);
+    background: linear-gradient(148deg, var(--bcglinear1) 0%, var(--bcglinear2) 100%);
+    margin: 0 auto;
+    height: 28rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: var(--radiusGrande);
+}
+
+.main__container--login h2{
+    font-size: var(--fontTitulo);
+    font-weight: bold;
+    color: var(--corUsuario);
+}
+
+.main__container--login span{
+    text-align: center;
+    color: var(--letrasPrincipais);
+}
+
+.main__container--login span a{
+    color: rgb(255, 255, 255);
+}
+
+.main__container--login span a:hover{
+    color: var(--bcgLista)
+}

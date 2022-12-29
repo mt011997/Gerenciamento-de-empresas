@@ -1,0 +1,14 @@
+.botao--geral{
+    padding: 10px;
+    border: 2px solid var(--borders);
+    border-radius: var(--radiusMed);
+    background-color: var(--bcgBody);
+    font-size: var(--fontPadrao);
+    font-weight: bold;
+    color: var(--textoPreto);
+}
+
+.botao--geral:hover{
+    border: 2px solid var(--borderHover);
+    cursor: pointer;
+}

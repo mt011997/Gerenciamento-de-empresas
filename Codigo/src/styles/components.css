@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+
+:root{
+	
+	--bcgBody:#e0f0f9;
+	--bcglinear1: #b0daf2;
+	--bcglinear2: #0089ff;
+	--bcgLista: #badbfb;
+	--bcgInput: white;
+	--letrasPrincipais: #085cb3;
+	--letrasPadrao: #000;
+	--borders: #6fc1f0;
+	--borderHover: #0d7dc1;
+	--tituloEmpresa:#085cb3;
+	--textoPreto: #000;
+	--corUsuario: #0017bf;
+	--listaLinear1: #adadad;
+	--listaLinear2: #ffffff;
+
+	--fontTitulo: 28px;
+	--fontTitulo2:20px;
+	--fontPadrao: 1rem;
+	--fontMedia: 14px;
+	--radiusMed: 8px;
+	--radiusGrande: 10px;
+
+	--ballTransition: translateX(0px) 
+}
+
+.dark-mode:root{
+
+	--bcgBody: #02507e;
+    --bcglinear1: #093148;
+    --bcglinear2: #021220;
+    --bcgLista: #729fcb;
+	--bcgInput: lightgray;
+    --letrasPrincipais: #3d93ed;
+    --letrasPadrao: #0857a1;
+    --borders: #356b8b;
+    --borderHover: #000;
+	--tituloEmpresa: #000;
+	--textoPreto:#fff;
+	--corUsuario:#3d93ed;
+	--listaLinear1:#0c3362;
+	--listaLinear2: #000;
+
+	--fontTitulo: 28px;
+	--fontTitulo2:20px;
+	--fontPadrao: 1rem;
+	--fontMedia: 14px;
+	--radiusMed: 8px;
+	--radiusGrande: 10px;
+
+	--ballTransition: translateX(26px) 
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/components.css">
+    <link rel="stylesheet" href="/src/styles/inputs.css">
+    <link rel="stylesheet" href="/src/styles/buttons.css">
+    <link rel="stylesheet" href="/src/styles/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://kit.fontawesome.com/72a6c2aedc.js" crossorigin="anonymous"></script>
+
+    <title>Sem nome Ainda</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav__container--left">
+            <h1>Logo</h1>
+        </div>
+        <div class="nav__container--right">
+            <div class="dark__togle">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </div>
+            
+            <a href="/src/pages/register.html">Registrar</a>     
+        </div>
+    </nav>
+
+    <main>
+        <div class="main__container--empresas">
+
+            <h2>Nossas Empresas</h2>
+
+            <div class="container--categoria">
+                <span id="companies">Todas</span>
+            
+            </div>
+
+            <div class="container--cardEmpresa">
+                <ul class="cardEmpresa">
+                 
+                </ul>
+            </div>
+        </div>
+
+        <div class="main__container--login">
+
+            <h2>Login</h2>
+            <input class="input--geral" type="email" name="email" id="email" placeholder="Email">
+            <input class="input--geral" type="password" name="password" id="password" placeholder="Senha">
+            <button id="buttonLogin" class="botao--geral">Logar</button>
+            <span>Ainda não tem cadastro? <a href="/src/pages/register.html">Clique aqui</a></span>
+
+        </div>
+    </main>
+    
+    <script src="/src/scripts/darkMode.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="/src/scripts/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/components.css">
+    <link rel="stylesheet" href="/src/styles/inputs.css">
+    <link rel="stylesheet" href="/src/styles/buttons.css">
+    <link rel="stylesheet" href="/src/styles/register.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://kit.fontawesome.com/72a6c2aedc.js" crossorigin="anonymous"></script>
+
+    <title>Gerenciamento Empresarial MT01</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav__container--left">
+            <h1>Logo</h1>
+        </div>
+        <div class="nav__container--right">
+            <div class="dark__togle">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </div>
+            
+            <a href="../../index.html">Login</a>     
+        </div>
+    </nav>
+
+    <div class="main__container--login">
+
+        <h2>Cadastre-se</h2>
+        <input class="input--geral" type="text" name="username" id="username" placeholder="Nome de Usauário">
+        <input class="input--geral" type="email" name="email" id="email" placeholder="Email">
+        <select id ="trabalhoNivel" class="input--geral">
+            <option>estágio</option>
+            <option>júnior</option>
+            <option>pleno</option>
+            <option>sênior</option>
+        </select>
+        <input class="input--geral" type="password" name="password" id="password" placeholder="Senha">
+        <button id="btnRegistrar" class="botao--geral">Cadastrar</button>
+        <span>Já é cadastrado? <a href="../../index.html">Clique aqui</a></span>
+
+    </div>
+
+    <script src="/src/scripts/darkMode.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="/src/scripts/register.js"></script>
+
+</body>
+</html>

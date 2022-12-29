@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/components.css">
+    <link rel="stylesheet" href="/src/styles/liDashBoardAdmin.css">
+    <link rel="stylesheet" href="/src/styles/inputs.css">
+    <link rel="stylesheet" href="/src/styles/buttons.css">
+    <link rel="stylesheet" href="/src/styles/dashBoardAdmim.css">
+    <link rel="stylesheet" href="/src/styles/modalAdmin.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://kit.fontawesome.com/72a6c2aedc.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header__container--left">
+            <h1>Logo</h1>
+        </div>
+        <div class="header__container--right">
+            <div class="dark__togle">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </div>
+            
+            <span class="logout">Sair</span>    
+        </div>
+    </header>
+
+    <main>
+
+        <section class="modal showModal hidden">
+        </section>
+        
+        <nav class="main__nav--opcoes">
+
+            <div class="nav__container--usuario">
+                <h2>Usuario: <cite>Admin</cite></h2>
+                <span>Email: <cite>admin@mail.com</cite></span>
+            </div>
+
+            <ul class="nav__container--opcoes">
+                <li id="setores">Setores</li>
+                <li id="departamentos">Departamentos</li>
+                <li id="funcionarios">Funcionários</li>
+                <li id="semDep">Funcionários sem Departamentos</li>
+            </ul>
+
+        </nav>   
+
+        <div class="main__container--mostrarOpcoes">
+
+            <div class="container--empresas">
+                
+            </div>            
+
+        </div>
+
+    </main>
+
+
+
+    <script src="/src/scripts/darkMode.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="/src/scripts/dashBoardAdmim.js"></script>
+</body>
+</html>

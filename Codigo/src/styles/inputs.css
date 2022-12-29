@@ -1,0 +1,24 @@
+.input--geral{
+    padding: 10px;
+    font-size: var(--fontMedia);
+    border-radius: var(--radiusMed);
+    border: 2px solid var(--borders);
+    background-color: var(--bcgInput);
+}
+
+.input--geral:hover{
+    border: 2px solid var(--borderHover);
+    outline: 0;
+    border-color: var(--borderHover);
+}
+
+.input--geral::placeholder{
+    color: black;
+    font-size: var(--fontMedia);
+}
+
+.input--geral:focus{
+    border: 2px solid var(--borderHover);
+    outline: 0;
+    border-color: var(--borderHover);
+}
